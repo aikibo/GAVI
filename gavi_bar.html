@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_71088e8d02664838893f7d1b7d396c6e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_71088e8d02664838893f7d1b7d396c6e" ></div>
+        
+</body>
+<script>    
+    
+            var map_71088e8d02664838893f7d1b7d396c6e = L.map(
+                "map_71088e8d02664838893f7d1b7d396c6e",
+                {
+                    center: [44.68627, 8.80717],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8e7109817a8345b89a910a3962a162f8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_71088e8d02664838893f7d1b7d396c6e);
+        
+    
+            var marker_cluster_89099b7faa4046f88df37ce4a15b247c = L.markerClusterGroup(
+                {}
+            );
+            map_71088e8d02664838893f7d1b7d396c6e.addLayer(marker_cluster_89099b7faa4046f88df37ce4a15b247c);
+        
+    
+            var marker_ffb2d52a7b1745e5aab9f2cbc7890e40 = L.marker(
+                [44.68815996, 8.8044101],
+                {}
+            ).addTo(marker_cluster_89099b7faa4046f88df37ce4a15b247c);
+        
+    
+        var popup_4b187e5341ad48c9a16ead86afcd34c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_193288101ceb421398015121184a10a6 = $(`<div id="html_193288101ceb421398015121184a10a6" style="width: 100.0%; height: 100.0%;">Bar Pasticceria La Pieve Di Gavi</div>`)[0];
+            popup_4b187e5341ad48c9a16ead86afcd34c9.setContent(html_193288101ceb421398015121184a10a6);
+        
+
+        marker_ffb2d52a7b1745e5aab9f2cbc7890e40.bindPopup(popup_4b187e5341ad48c9a16ead86afcd34c9)
+        ;
+
+        
+    
+    
+            var marker_3e399d4dd2524f1cb99b2e17516104b1 = L.marker(
+                [44.68826674, 8.80532205],
+                {}
+            ).addTo(marker_cluster_89099b7faa4046f88df37ce4a15b247c);
+        
+    
+        var popup_66046233691f4e6db7152f09eee6e908 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd35bfd86c114f1fa8d847f739464a96 = $(`<div id="html_cd35bfd86c114f1fa8d847f739464a96" style="width: 100.0%; height: 100.0%;">Caffè Cantante</div>`)[0];
+            popup_66046233691f4e6db7152f09eee6e908.setContent(html_cd35bfd86c114f1fa8d847f739464a96);
+        
+
+        marker_3e399d4dd2524f1cb99b2e17516104b1.bindPopup(popup_66046233691f4e6db7152f09eee6e908)
+        ;
+
+        
+    
+    
+            var marker_364a70da25e14f8291b644720a828fd6 = L.marker(
+                [44.68836209, 8.80631983],
+                {}
+            ).addTo(marker_cluster_89099b7faa4046f88df37ce4a15b247c);
+        
+    
+        var popup_399386c153b34c61955b400aa302c8c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1407dad1cd64c6f827807b65bd19c0e = $(`<div id="html_a1407dad1cd64c6f827807b65bd19c0e" style="width: 100.0%; height: 100.0%;">Gelateria Bar Matteo Snc</div>`)[0];
+            popup_399386c153b34c61955b400aa302c8c9.setContent(html_a1407dad1cd64c6f827807b65bd19c0e);
+        
+
+        marker_364a70da25e14f8291b644720a828fd6.bindPopup(popup_399386c153b34c61955b400aa302c8c9)
+        ;
+
+        
+    
+    
+            var marker_33f209a9cf3c4b3c8f4dece41095105c = L.marker(
+                [44.68830869, 8.80738199],
+                {}
+            ).addTo(marker_cluster_89099b7faa4046f88df37ce4a15b247c);
+        
+    
+        var popup_89e1e22da9344e599ad0e16783e8e80b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93f35a7f5b684c69a4ae05b206a185c5 = $(`<div id="html_93f35a7f5b684c69a4ae05b206a185c5" style="width: 100.0%; height: 100.0%;">G.B. Traverso Antica Pasticceria</div>`)[0];
+            popup_89e1e22da9344e599ad0e16783e8e80b.setContent(html_93f35a7f5b684c69a4ae05b206a185c5);
+        
+
+        marker_33f209a9cf3c4b3c8f4dece41095105c.bindPopup(popup_89e1e22da9344e599ad0e16783e8e80b)
+        ;
+
+        
+    
+    
+            var marker_1670a25bfcea4434b74f4e64f777adb2 = L.marker(
+                [44.68830488, 8.80340695],
+                {}
+            ).addTo(marker_cluster_89099b7faa4046f88df37ce4a15b247c);
+        
+    
+        var popup_e17f0d41ab3d44e98c899d71b3d3ad27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb3e940261234a75a3df73b4856d4b4d = $(`<div id="html_eb3e940261234a75a3df73b4856d4b4d" style="width: 100.0%; height: 100.0%;">Caffè del Moro</div>`)[0];
+            popup_e17f0d41ab3d44e98c899d71b3d3ad27.setContent(html_eb3e940261234a75a3df73b4856d4b4d);
+        
+
+        marker_1670a25bfcea4434b74f4e64f777adb2.bindPopup(popup_e17f0d41ab3d44e98c899d71b3d3ad27)
+        ;
+
+        
+    
+</script>
