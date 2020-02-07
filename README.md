@@ -63,7 +63,7 @@ plt.show()
 ```
 </details>
 
-<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Icon_Vino_2.png" alt="Icon_Vino_2" style="zoom:50%;" />
+![Icon_Vino_2](https://github.com/aikibo/GAVI/blob/master/Image/Icon_Vino_2.png)
 
 
 ### Gavi
@@ -84,7 +84,7 @@ plt.show()
 ```
 </details>
 
-<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/gavi-forte-panorama.jpg" alt="gavi-forte-panorama" style="zoom:67%;" />
+![gavi-forte-panorama](https://github.com/aikibo/GAVI/blob/master/Image/gavi-forte-panorama.jpg)
 
 ### Stemma
 
@@ -102,7 +102,7 @@ plt.show()
 ```
 </details>
 
-<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi-Stemma.png" alt="Gavi-Stemma" style="zoom:67%;" />
+![Gavi-Stemma](https://github.com/aikibo/GAVI/blob/master/Image/Gavi-Stemma.png)
 
 
 # Dove si trova?
@@ -157,7 +157,7 @@ gavi_map
 ```
 </details>
 
-<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_map.png" alt="Gavi_map" />
+![Gavi_map](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map.png)
 
 
 <details>
@@ -183,7 +183,8 @@ gavi_map1
 ```
 </details>
 
-<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_map1.png" alt="Gavi_map1" />
+![Gavi_map1](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map1.png)
+
 
 
 # Avvenimenti Storici
@@ -204,7 +205,7 @@ plt.show()
 ```
 </details>
 
-<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/vecchiagavi.jpg" alt="vecchiagavi" style="zoom:400%;" />
+![vecchiagavi](https://github.com/aikibo/GAVI/blob/master/Image/vecchiagavi.jpg)
 
 
 **Avvenimenti storici di Gavi**: 
@@ -272,7 +273,7 @@ gavi_map2
 ```
 </details>
 
-<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_map2.png" alt="Gavi_map2" />
+![Gavi_map2](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map2.png)
 
 
 # Gastronomia e Vini
@@ -346,11 +347,7 @@ gavi_map3
 ```
 </details>
 
-<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_map3.png" alt="Gavi_map3" />
-
-
-
-
+![Gavi_map3](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map3.png)
 
 
 ```python
@@ -358,8 +355,7 @@ gavi_vini
 ```
 
 
-
-<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_tab_vini.png" alt="Gavi_tab_vini" />
+![Gavi_tab_vini](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_vini.png)
 
 
 
@@ -450,7 +446,7 @@ gavi_map4
 
 
 
-<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_map4.png" alt="Gavi_map4" />
+![Gavi_map4](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map4.png)
 
 
 
@@ -458,11 +454,7 @@ gavi_map4
 gavi_risto
 ```
 
-
-
-<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_tab_risto.png" alt="Gavi_tab_risto" />
-
-Gavi_tab_risto
+![Gavi_tab_risto](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_risto.png)
 
 ### DOLCI
 
@@ -482,13 +474,13 @@ gavi_map5.save(outfile= "OUTPUT/gavi_bar.html")
 gavi_map5
 ```
 
-<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_map5.png" alt="Gavi_map5" />
+![Gavi_map5](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map5.png)
 
 ```python
 gavi_bar
 ```
 
-<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_tab_bar.png" alt="Gavi_tab_bar" />
+![Gavi_tab_bar](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_bar.png)
 
 
 ```python
@@ -498,121 +490,10 @@ gavi_map.save(outfile= "OUTPUT/gavi_bb.html")
 gavi_map6
 ```
 
-<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_map6.png" alt="Gavi_map6" />
-
+![Gavi_map6](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map6.png)
 
 
 ```python
 gavi_bb
 ```
-
-<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_tab_bb.png" alt="Gavi_tab_bb" />
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-    
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Dove_dormire</th>
-      <th>Indirizzo</th>
-      <th>Telefono</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>B&amp;B Albicocco</td>
-      <td>Via Giuseppe Garibaldi, 76, 15066 Gavi AL</td>
-      <td>348 602 3503</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>B&amp;B Treinin</td>
-      <td>Via Goffredo Mameli, 15, 15066 Gavi AL</td>
-      <td>348 409 4880</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Borgo Nuovo Monserito</td>
-      <td>Via Monserito, 1, 15066 Gavi AL</td>
-      <td>349 778 3799</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Hotel Al Castello</td>
-      <td>Piazza Dante Alighieri, 11/R, 15066 Gavi AL</td>
-      <td>0143 642794</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>B&amp;B Villa Gavina</td>
-      <td>Strada Privata Villa Gavina, 6, 15066 Gavi AL</td>
-      <td>347 974 2481</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>B&amp;B Alcortile di Gavi</td>
-      <td>10, Via Roma, 10R, 15066 Gavi AL</td>
-      <td>349 537 2155</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>Agriturismo Nonna Du</td>
-      <td>Loc. Vallemme Zamblea, 14, 15066 Gavi AL</td>
-      <td>0143 642582</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>B&amp;B I Templari</td>
-      <td>Via Magione, 4, 15066 Gavi AL</td>
-      <td>320 492 3831</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>B&amp;B Borgo Cortese</td>
-      <td>Via XX Settembre, 9R, 15066 Gavi AL</td>
-      <td>366 155 7647</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>Tenuta della Guardia</td>
-      <td>Loc. Nebbioli, 44, 15066 Gavi AL</td>
-      <td>335 815 5166</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>B&amp;B Il Tetto di Anita</td>
-      <td>Via Ospedale, 3, 15066 Gavi AL</td>
-      <td>339 505 2797</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>Ristorante Il Girasole</td>
-      <td>Piazza Martiri della Benedicta, 15/R, 15066 Ga...</td>
-      <td>0143 643485</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>Borgo Cortese 1</td>
-      <td>Vico Bassani, 13, 15066 Gavi AL</td>
-      <td>366 155 7647</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
+![Gavi_tab_bb.png](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_bb.png)
