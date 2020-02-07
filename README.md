@@ -87,7 +87,11 @@ plt.show()
 ```
 </details>
 
-![gavi-forte-panorama](https://github.com/aikibo/GAVI/blob/master/Image/gavi-forte-panorama.jpg)
+
+<p align="center">
+  <img src="https://github.com/aikibo/GAVI/blob/master/Image/gavi-forte-panorama.jpg" width="1000" title="gavi-forte-panorama">
+</p>
+
 
 ### Stemma
 
@@ -105,7 +109,9 @@ plt.show()
 ```
 </details>
 
-![Gavi-Stemma](https://github.com/aikibo/GAVI/blob/master/Image/Gavi-Stemma.png)
+<p align="center">
+  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi-Stemma.png" width="350" title="Gavi-Stemma">
+</p>
 
 
 # Dove si trova?
@@ -160,7 +166,9 @@ gavi_map
 ```
 </details>
 
-![Gavi_map](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map.png)
+<p align="center">
+  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map.png" width="1000" title="Gavi_Map">
+</p>
 
 
 <details>
@@ -186,8 +194,9 @@ gavi_map1
 ```
 </details>
 
-![Gavi_map1](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map1.png)
-
+<p align="center">
+  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map1.png" width="1000" title="Gavi_Map1">
+</p>
 
 
 # Avvenimenti Storici
@@ -208,7 +217,9 @@ plt.show()
 ```
 </details>
 
-![vecchiagavi](https://github.com/aikibo/GAVI/blob/master/Image/vecchiagavi.jpg)
+<p align="center">
+  <img src="https://github.com/aikibo/GAVI/blob/master/Image/vecchiagavi.jpg" width="500" title="vecchiagavi.jpg">
+</p>
 
 
 **Avvenimenti storici di Gavi**: 
@@ -276,7 +287,9 @@ gavi_map2
 ```
 </details>
 
-![Gavi_map2](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map2.png)
+<p align="center">
+  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map2.png" width="1000" title="Gavi_map2.png">
+</p>
 
 
 # Gastronomia e Vini
@@ -350,15 +363,19 @@ gavi_map3
 ```
 </details>
 
-![Gavi_map3](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map3.png)
+<p align="center">
+  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map3.png" width="1000" title="Gavi_map3.png">
+</p>
+
 
 
 ```python
 gavi_vini
 ```
 
-
-![Gavi_tab_vini](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_vini.png)
+<p align="center">
+  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_vini.png" width="680" title="Gavi_tab_vini.png">
+</p>
 
 
 
@@ -448,16 +465,19 @@ gavi_map4
 ```
 
 
-
-![Gavi_map4](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map4.png)
-
+<p align="center">
+  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map4.png" width="1000" title="Gavi_map4.png">
+</p>
 
 
 ```python
 gavi_risto
 ```
 
-![Gavi_tab_risto](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_risto.png)
+<p align="center">
+  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_risto.png" width="680" title="Gavi_tab_risto.png">
+</p>
+
 
 ### DOLCI
 
@@ -476,14 +496,17 @@ gavi_map5.save(outfile= "OUTPUT/gavi_bar.html")
 
 gavi_map5
 ```
+<p align="center">
+  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map5.png" width="1000" title="Gavi_map5.png">
+</p>
 
-![Gavi_map5](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map5.png)
 
 ```python
 gavi_bar
 ```
-
-![Gavi_tab_bar](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_bar.png)
+<p align="center">
+  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_bar.png" width="580" title="Gavi_tab_bar.png">
+</p>
 
 
 ```python
@@ -492,11 +515,15 @@ gavi_map.save(outfile= "OUTPUT/gavi_bb.html")
 
 gavi_map6
 ```
-
-![Gavi_map6](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map6.png)
+<p align="center">
+  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map6.png" width="1000" title="Gavi_map6.png">
+</p>
 
 
 ```python
 gavi_bb
 ```
-![Gavi_tab_bb.png](https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_bb.png)
+<p align="center">
+  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_bb.png" width="580" title="Gavi_tab_bb.png">
+</p>
+
