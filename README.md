@@ -63,7 +63,10 @@ plt.show()
 ```
 </details>
 
-![Icon_Vino_2](https://github.com/aikibo/GAVI/blob/master/Image/Icon_Vino_2.png)
+
+<p align="center">
+  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Icon_Vino_2.png" width="350" title="Icona_Vino">
+</p>
 
 
 ### Gavi
