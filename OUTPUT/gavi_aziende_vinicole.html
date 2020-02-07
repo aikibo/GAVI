@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_10031574f5744a87a2aa0a5c9eebb4cf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_10031574f5744a87a2aa0a5c9eebb4cf" ></div>
+        
+</body>
+<script>    
+    
+            var map_10031574f5744a87a2aa0a5c9eebb4cf = L.map(
+                "map_10031574f5744a87a2aa0a5c9eebb4cf",
+                {
+                    center: [44.68627, 8.80717],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0561d06b89ff45719dcb91fa7a8dd0f7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_10031574f5744a87a2aa0a5c9eebb4cf);
+        
+    
+            var marker_cluster_3c12199bd32b47de9bff0a779531ef1f = L.markerClusterGroup(
+                {}
+            );
+            map_10031574f5744a87a2aa0a5c9eebb4cf.addLayer(marker_cluster_3c12199bd32b47de9bff0a779531ef1f);
+        
+    
+            var marker_3f8fd81a6ded41fe8d3d9d1708933636 = L.marker(
+                [44.676054, 8.788635000000001],
+                {}
+            ).addTo(marker_cluster_3c12199bd32b47de9bff0a779531ef1f);
+        
+    
+        var popup_aa7db11f45e446c9849706e68e3a7239 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfb1d0eb4ad648b4a6a2c50073dbb028 = $(`<div id="html_bfb1d0eb4ad648b4a6a2c50073dbb028" style="width: 100.0%; height: 100.0%;">Cantina Cartasegna Virgilio di Giorgio Luciano Carlo & C. sas</div>`)[0];
+            popup_aa7db11f45e446c9849706e68e3a7239.setContent(html_bfb1d0eb4ad648b4a6a2c50073dbb028);
+        
+
+        marker_3f8fd81a6ded41fe8d3d9d1708933636.bindPopup(popup_aa7db11f45e446c9849706e68e3a7239)
+        ;
+
+        
+    
+    
+            var marker_315dd230905b42a69733ec194c65b015 = L.marker(
+                [44.681044, 8.811463],
+                {}
+            ).addTo(marker_cluster_3c12199bd32b47de9bff0a779531ef1f);
+        
+    
+        var popup_61d011fae964486bafd5464de1e8423a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4882d7069477489e9b87dc5c286cc72a = $(`<div id="html_4882d7069477489e9b87dc5c286cc72a" style="width: 100.0%; height: 100.0%;">Produttori Del Gavi</div>`)[0];
+            popup_61d011fae964486bafd5464de1e8423a.setContent(html_4882d7069477489e9b87dc5c286cc72a);
+        
+
+        marker_315dd230905b42a69733ec194c65b015.bindPopup(popup_61d011fae964486bafd5464de1e8423a)
+        ;
+
+        
+    
+    
+            var marker_8a8e0ddb72e24df3ba070d323bcd8ea8 = L.marker(
+                [44.707434, 8.781997],
+                {}
+            ).addTo(marker_cluster_3c12199bd32b47de9bff0a779531ef1f);
+        
+    
+        var popup_a626d6b454aa4baca76231ad98c4df58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4278dc098d6a46779580f1d2a8ef2277 = $(`<div id="html_4278dc098d6a46779580f1d2a8ef2277" style="width: 100.0%; height: 100.0%;">La Scolca</div>`)[0];
+            popup_a626d6b454aa4baca76231ad98c4df58.setContent(html_4278dc098d6a46779580f1d2a8ef2277);
+        
+
+        marker_8a8e0ddb72e24df3ba070d323bcd8ea8.bindPopup(popup_a626d6b454aa4baca76231ad98c4df58)
+        ;
+
+        
+    
+    
+            var marker_fa0270c3663047de897db8fdb0dfbd3b = L.marker(
+                [44.696762, 8.789662],
+                {}
+            ).addTo(marker_cluster_3c12199bd32b47de9bff0a779531ef1f);
+        
+    
+        var popup_19f12a0a4e074c638d2aa368b41cde72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3a50f6d3e294b699e8cea47cda3f55c = $(`<div id="html_e3a50f6d3e294b699e8cea47cda3f55c" style="width: 100.0%; height: 100.0%;">La Chiara</div>`)[0];
+            popup_19f12a0a4e074c638d2aa368b41cde72.setContent(html_e3a50f6d3e294b699e8cea47cda3f55c);
+        
+
+        marker_fa0270c3663047de897db8fdb0dfbd3b.bindPopup(popup_19f12a0a4e074c638d2aa368b41cde72)
+        ;
+
+        
+    
+    
+            var marker_017a7bd270314be196f75aedae4c8957 = L.marker(
+                [44.705099, 8.78806],
+                {}
+            ).addTo(marker_cluster_3c12199bd32b47de9bff0a779531ef1f);
+        
+    
+        var popup_4d547417a2d74f8282166eacfec6932a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9d580384dbe41128bffddfe634bbb69 = $(`<div id="html_c9d580384dbe41128bffddfe634bbb69" style="width: 100.0%; height: 100.0%;">Fontanassa Societa' Semplice</div>`)[0];
+            popup_4d547417a2d74f8282166eacfec6932a.setContent(html_c9d580384dbe41128bffddfe634bbb69);
+        
+
+        marker_017a7bd270314be196f75aedae4c8957.bindPopup(popup_4d547417a2d74f8282166eacfec6932a)
+        ;
+
+        
+    
+    
+            var marker_0a3784b3722b4386871494182fb19c00 = L.marker(
+                [44.669096, 8.807846000000001],
+                {}
+            ).addTo(marker_cluster_3c12199bd32b47de9bff0a779531ef1f);
+        
+    
+        var popup_2829ababe6bf42f7bd96d8656d4fa960 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb7cf6386ca443839f7fda3ed23b7e84 = $(`<div id="html_eb7cf6386ca443839f7fda3ed23b7e84" style="width: 100.0%; height: 100.0%;">Giordano Lombardo - Azienda Agricola Biodinamica - Produzione Gavi</div>`)[0];
+            popup_2829ababe6bf42f7bd96d8656d4fa960.setContent(html_eb7cf6386ca443839f7fda3ed23b7e84);
+        
+
+        marker_0a3784b3722b4386871494182fb19c00.bindPopup(popup_2829ababe6bf42f7bd96d8656d4fa960)
+        ;
+
+        
+    
+    
+            var marker_7b0e3e6f24d04a1894e78bb673db3aa7 = L.marker(
+                [44.705345, 8.767036000000001],
+                {}
+            ).addTo(marker_cluster_3c12199bd32b47de9bff0a779531ef1f);
+        
+    
+        var popup_c4c21d7af49c4db99dd99654fd212057 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31097d749f914d499f74cb51b55368d8 = $(`<div id="html_31097d749f914d499f74cb51b55368d8" style="width: 100.0%; height: 100.0%;">Bergaglio Nicola</div>`)[0];
+            popup_c4c21d7af49c4db99dd99654fd212057.setContent(html_31097d749f914d499f74cb51b55368d8);
+        
+
+        marker_7b0e3e6f24d04a1894e78bb673db3aa7.bindPopup(popup_c4c21d7af49c4db99dd99654fd212057)
+        ;
+
+        
+    
+    
+            var marker_991604919e824445a7d43e076c1e1974 = L.marker(
+                [44.726581, 8.768625],
+                {}
+            ).addTo(marker_cluster_3c12199bd32b47de9bff0a779531ef1f);
+        
+    
+        var popup_d22c6f3d292b4424957ff765ece4696e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26722d0db5b44298827197e2639fa225 = $(`<div id="html_26722d0db5b44298827197e2639fa225" style="width: 100.0%; height: 100.0%;">cinzia bergaglio</div>`)[0];
+            popup_d22c6f3d292b4424957ff765ece4696e.setContent(html_26722d0db5b44298827197e2639fa225);
+        
+
+        marker_991604919e824445a7d43e076c1e1974.bindPopup(popup_d22c6f3d292b4424957ff765ece4696e)
+        ;
+
+        
+    
+    
+            var marker_aa7ede9992df4390b77cea5b6307705e = L.marker(
+                [44.706989, 8.78139],
+                {}
+            ).addTo(marker_cluster_3c12199bd32b47de9bff0a779531ef1f);
+        
+    
+        var popup_877cb352c31249d18692b2c6d0ad865c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92fd4b87301f47a68d356813d1fdb8ed = $(`<div id="html_92fd4b87301f47a68d356813d1fdb8ed" style="width: 100.0%; height: 100.0%;">Azienda Agricola Il Poggio</div>`)[0];
+            popup_877cb352c31249d18692b2c6d0ad865c.setContent(html_92fd4b87301f47a68d356813d1fdb8ed);
+        
+
+        marker_aa7ede9992df4390b77cea5b6307705e.bindPopup(popup_877cb352c31249d18692b2c6d0ad865c)
+        ;
+
+        
+    
+    
+            var marker_5418993f5de44b0784e24940ceba6258 = L.marker(
+                [44.718608, 8.816271],
+                {}
+            ).addTo(marker_cluster_3c12199bd32b47de9bff0a779531ef1f);
+        
+    
+        var popup_0e30e3ceeac24dd49dba507f3b6635b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d03a9457b5d743b3b4f1fb62805d9183 = $(`<div id="html_d03a9457b5d743b3b4f1fb62805d9183" style="width: 100.0%; height: 100.0%;">Azienda agricola biodinamica - La Raia</div>`)[0];
+            popup_0e30e3ceeac24dd49dba507f3b6635b6.setContent(html_d03a9457b5d743b3b4f1fb62805d9183);
+        
+
+        marker_5418993f5de44b0784e24940ceba6258.bindPopup(popup_0e30e3ceeac24dd49dba507f3b6635b6)
+        ;
+
+        
+    
+    
+            var marker_12c85affdccf46b4a97ff87b416d4e2e = L.marker(
+                [44.70953, 8.812180999999999],
+                {}
+            ).addTo(marker_cluster_3c12199bd32b47de9bff0a779531ef1f);
+        
+    
+        var popup_582ceb514a184bc9b0a06aa35f5cbf47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f37126e5893f422395cdefa97ffc4df2 = $(`<div id="html_f37126e5893f422395cdefa97ffc4df2" style="width: 100.0%; height: 100.0%;">Villa Sparina Resort</div>`)[0];
+            popup_582ceb514a184bc9b0a06aa35f5cbf47.setContent(html_f37126e5893f422395cdefa97ffc4df2);
+        
+
+        marker_12c85affdccf46b4a97ff87b416d4e2e.bindPopup(popup_582ceb514a184bc9b0a06aa35f5cbf47)
+        ;
+
+        
+    
+    
+            var marker_8b42e8cb4e7443ae94f566df69800f53 = L.marker(
+                [44.715522, 8.772067999999999],
+                {}
+            ).addTo(marker_cluster_3c12199bd32b47de9bff0a779531ef1f);
+        
+    
+        var popup_19a52ad5f1514942813fb9535ef5153a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc8f28f8a1cf4ea59da255a4a011409c = $(`<div id="html_fc8f28f8a1cf4ea59da255a4a011409c" style="width: 100.0%; height: 100.0%;">Castellari Bergaglio Azienda Agricola</div>`)[0];
+            popup_19a52ad5f1514942813fb9535ef5153a.setContent(html_fc8f28f8a1cf4ea59da255a4a011409c);
+        
+
+        marker_8b42e8cb4e7443ae94f566df69800f53.bindPopup(popup_19a52ad5f1514942813fb9535ef5153a)
+        ;
+
+        
+    
+    
+            var marker_a772eaa70629423392c58fc89331d692 = L.marker(
+                [44.715089, 8.798680000000001],
+                {}
+            ).addTo(marker_cluster_3c12199bd32b47de9bff0a779531ef1f);
+        
+    
+        var popup_095c0b37d20a442aa1ec94dc33950749 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_644ad29ba9a0499e8018554b4e90e6fc = $(`<div id="html_644ad29ba9a0499e8018554b4e90e6fc" style="width: 100.0%; height: 100.0%;">La Lomellina di Gavi - Marchese Raggio</div>`)[0];
+            popup_095c0b37d20a442aa1ec94dc33950749.setContent(html_644ad29ba9a0499e8018554b4e90e6fc);
+        
+
+        marker_a772eaa70629423392c58fc89331d692.bindPopup(popup_095c0b37d20a442aa1ec94dc33950749)
+        ;
+
+        
+    
+    
+            var marker_6bd4d674bffc4c7d9e99decba44aa9d1 = L.marker(
+                [44.711315, 8.763562],
+                {}
+            ).addTo(marker_cluster_3c12199bd32b47de9bff0a779531ef1f);
+        
+    
+        var popup_8fd9280811da4a2bbc9e09ce67eed79f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc0b680adbe44673829bca1dcd7794cc = $(`<div id="html_bc0b680adbe44673829bca1dcd7794cc" style="width: 100.0%; height: 100.0%;">Marchese Luca Spinola</div>`)[0];
+            popup_8fd9280811da4a2bbc9e09ce67eed79f.setContent(html_bc0b680adbe44673829bca1dcd7794cc);
+        
+
+        marker_6bd4d674bffc4c7d9e99decba44aa9d1.bindPopup(popup_8fd9280811da4a2bbc9e09ce67eed79f)
+        ;
+
+        
+    
+    
+            var marker_d404376ab378432fb785037cba98caeb = L.marker(
+                [44.710873, 8.789156],
+                {}
+            ).addTo(marker_cluster_3c12199bd32b47de9bff0a779531ef1f);
+        
+    
+        var popup_f7131597c89c445ba0fa8475cb40e574 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93027030b5e64fd9a3de6c44d907f8f8 = $(`<div id="html_93027030b5e64fd9a3de6c44d907f8f8" style="width: 100.0%; height: 100.0%;">Azienda vitivinicola Broglia</div>`)[0];
+            popup_f7131597c89c445ba0fa8475cb40e574.setContent(html_93027030b5e64fd9a3de6c44d907f8f8);
+        
+
+        marker_d404376ab378432fb785037cba98caeb.bindPopup(popup_f7131597c89c445ba0fa8475cb40e574)
+        ;
+
+        
+    
+    
+            var marker_443391f5858640c5afaa7a9abf97ffb3 = L.marker(
+                [44.692902000000004, 8.797122],
+                {}
+            ).addTo(marker_cluster_3c12199bd32b47de9bff0a779531ef1f);
+        
+    
+        var popup_53b2f88a510a49fc89568bd465252694 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d028cd9b95b45a38774209bd6d5e164 = $(`<div id="html_5d028cd9b95b45a38774209bd6d5e164" style="width: 100.0%; height: 100.0%;">Azienda Agricola Il Rocchin</div>`)[0];
+            popup_53b2f88a510a49fc89568bd465252694.setContent(html_5d028cd9b95b45a38774209bd6d5e164);
+        
+
+        marker_443391f5858640c5afaa7a9abf97ffb3.bindPopup(popup_53b2f88a510a49fc89568bd465252694)
+        ;
+
+        
+    
+</script>

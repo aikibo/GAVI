@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a359254bb3554f1a8f947fb56fcde3aa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a359254bb3554f1a8f947fb56fcde3aa" ></div>
+        
+</body>
+<script>    
+    
+            var map_a359254bb3554f1a8f947fb56fcde3aa = L.map(
+                "map_a359254bb3554f1a8f947fb56fcde3aa",
+                {
+                    center: [44.68627, 8.80717],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bf02b3b0394243e5a1adaa85eac283ad = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a359254bb3554f1a8f947fb56fcde3aa);
+        
+    
+            var marker_cluster_2f98fa4f430c453b9a6892b158b88b88 = L.markerClusterGroup(
+                {}
+            );
+            map_a359254bb3554f1a8f947fb56fcde3aa.addLayer(marker_cluster_2f98fa4f430c453b9a6892b158b88b88);
+        
+    
+            var marker_67c7be7eb1fa4f50933ef80de05a5988 = L.marker(
+                [44.68786248, 8.80795598],
+                {}
+            ).addTo(marker_cluster_2f98fa4f430c453b9a6892b158b88b88);
+        
+    
+        var popup_5fa31158d1b148d7b4df4afbf3f5f730 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1298c57166134afaa6182e717d036bad = $(`<div id="html_1298c57166134afaa6182e717d036bad" style="width: 100.0%; height: 100.0%;">Ristorante Peccati Di Gola </div>`)[0];
+            popup_5fa31158d1b148d7b4df4afbf3f5f730.setContent(html_1298c57166134afaa6182e717d036bad);
+        
+
+        marker_67c7be7eb1fa4f50933ef80de05a5988.bindPopup(popup_5fa31158d1b148d7b4df4afbf3f5f730)
+        ;
+
+        
+    
+    
+            var marker_bf7150b1060b427a814a58e7f9791f97 = L.marker(
+                [44.68828962, 8.80358934],
+                {}
+            ).addTo(marker_cluster_2f98fa4f430c453b9a6892b158b88b88);
+        
+    
+        var popup_61a9034154f840fdaf113d529de09c91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_879b25e3b41a4412b22b676c653c843a = $(`<div id="html_879b25e3b41a4412b22b676c653c843a" style="width: 100.0%; height: 100.0%;">Ristorante Beer & Co</div>`)[0];
+            popup_61a9034154f840fdaf113d529de09c91.setContent(html_879b25e3b41a4412b22b676c653c843a);
+        
+
+        marker_bf7150b1060b427a814a58e7f9791f97.bindPopup(popup_61a9034154f840fdaf113d529de09c91)
+        ;
+
+        
+    
+    
+            var marker_b444f0d9dcd148e3aaada6a6023ef3c4 = L.marker(
+                [44.68828962, 8.80486608],
+                {}
+            ).addTo(marker_cluster_2f98fa4f430c453b9a6892b158b88b88);
+        
+    
+        var popup_291dec945fb541ed9bea3fac880f18b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c64d2d6948cf4fa8b4c31af4a39831bc = $(`<div id="html_c64d2d6948cf4fa8b4c31af4a39831bc" style="width: 100.0%; height: 100.0%;">Osteria Piemontemare - Ghio Vini</div>`)[0];
+            popup_291dec945fb541ed9bea3fac880f18b0.setContent(html_c64d2d6948cf4fa8b4c31af4a39831bc);
+        
+
+        marker_b444f0d9dcd148e3aaada6a6023ef3c4.bindPopup(popup_291dec945fb541ed9bea3fac880f18b0)
+        ;
+
+        
+    
+    
+            var marker_5cdef2a769d24284b390de4b353241a2 = L.marker(
+                [44.68817521, 8.80406141],
+                {}
+            ).addTo(marker_cluster_2f98fa4f430c453b9a6892b158b88b88);
+        
+    
+        var popup_d2b451ee5a5247389fece2cd193ff838 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5035b176f22f45cfadcbfcf6ed8680e7 = $(`<div id="html_5035b176f22f45cfadcbfcf6ed8680e7" style="width: 100.0%; height: 100.0%;">Ristorante Il Girasole</div>`)[0];
+            popup_d2b451ee5a5247389fece2cd193ff838.setContent(html_5035b176f22f45cfadcbfcf6ed8680e7);
+        
+
+        marker_5cdef2a769d24284b390de4b353241a2.bindPopup(popup_d2b451ee5a5247389fece2cd193ff838)
+        ;
+
+        
+    
+    
+            var marker_7f3b3752332f4008a3337a6cd4e3b412 = L.marker(
+                [44.68838878, 8.80263448],
+                {}
+            ).addTo(marker_cluster_2f98fa4f430c453b9a6892b158b88b88);
+        
+    
+        var popup_7c62f12816a4404ca9e2d08f7741211c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfe845e32d874a2a818e6bc162c8a322 = $(`<div id="html_dfe845e32d874a2a818e6bc162c8a322" style="width: 100.0%; height: 100.0%;">Ristorante Cantine Del Gavi</div>`)[0];
+            popup_7c62f12816a4404ca9e2d08f7741211c.setContent(html_dfe845e32d874a2a818e6bc162c8a322);
+        
+
+        marker_7f3b3752332f4008a3337a6cd4e3b412.bindPopup(popup_7c62f12816a4404ca9e2d08f7741211c)
+        ;
+
+        
+    
+    
+            var marker_fa3d289d671a48418ee0d406a47d46c2 = L.marker(
+                [44.68735142, 8.80739808],
+                {}
+            ).addTo(marker_cluster_2f98fa4f430c453b9a6892b158b88b88);
+        
+    
+        var popup_76c6964381c34b478fb9a9175208efba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c07b2ea206bd45ee8f5a9f2848ad6896 = $(`<div id="html_c07b2ea206bd45ee8f5a9f2848ad6896" style="width: 100.0%; height: 100.0%;">Ristorante Al barbarossa</div>`)[0];
+            popup_76c6964381c34b478fb9a9175208efba.setContent(html_c07b2ea206bd45ee8f5a9f2848ad6896);
+        
+
+        marker_fa3d289d671a48418ee0d406a47d46c2.bindPopup(popup_76c6964381c34b478fb9a9175208efba)
+        ;
+
+        
+    
+    
+            var marker_28116e2938a24364b56be40794c558b1 = L.marker(
+                [44.68761077, 8.80306363],
+                {}
+            ).addTo(marker_cluster_2f98fa4f430c453b9a6892b158b88b88);
+        
+    
+        var popup_dcb5295bac654b8d9bf5c01f54d5d8fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_093a284b914e4b8aa3347ad8b27abb48 = $(`<div id="html_093a284b914e4b8aa3347ad8b27abb48" style="width: 100.0%; height: 100.0%;">Ristorante La Canonica</div>`)[0];
+            popup_dcb5295bac654b8d9bf5c01f54d5d8fa.setContent(html_093a284b914e4b8aa3347ad8b27abb48);
+        
+
+        marker_28116e2938a24364b56be40794c558b1.bindPopup(popup_dcb5295bac654b8d9bf5c01f54d5d8fa)
+        ;
+
+        
+    
+    
+            var marker_997ef196ac00454ea1d43ade02f99b1a = L.marker(
+                [44.68823623, 8.80810618],
+                {}
+            ).addTo(marker_cluster_2f98fa4f430c453b9a6892b158b88b88);
+        
+    
+        var popup_effded03aadd4bd6bfc72a2538e69756 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_329f217216194a6c93eed30119b9edd7 = $(`<div id="html_329f217216194a6c93eed30119b9edd7" style="width: 100.0%; height: 100.0%;">Ristorante Il Forte</div>`)[0];
+            popup_effded03aadd4bd6bfc72a2538e69756.setContent(html_329f217216194a6c93eed30119b9edd7);
+        
+
+        marker_997ef196ac00454ea1d43ade02f99b1a.bindPopup(popup_effded03aadd4bd6bfc72a2538e69756)
+        ;
+
+        
+    
+    
+            var marker_30b43aad2cdd4d2fb602b3055aad1d96 = L.marker(
+                [44.69143211, 8.79980206],
+                {}
+            ).addTo(marker_cluster_2f98fa4f430c453b9a6892b158b88b88);
+        
+    
+        var popup_6830c96ace3e429ea3e76350dcc00355 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6feca5a1d1d34e398145457446315db4 = $(`<div id="html_6feca5a1d1d34e398145457446315db4" style="width: 100.0%; height: 100.0%;">Ristorante Pizzeria Ingavi Sel Ditta</div>`)[0];
+            popup_6830c96ace3e429ea3e76350dcc00355.setContent(html_6feca5a1d1d34e398145457446315db4);
+        
+
+        marker_30b43aad2cdd4d2fb602b3055aad1d96.bindPopup(popup_6830c96ace3e429ea3e76350dcc00355)
+        ;
+
+        
+    
+    
+            var marker_ee2847bb6192402da22ec7daf1465970 = L.marker(
+                [44.68818284, 8.80443692],
+                {}
+            ).addTo(marker_cluster_2f98fa4f430c453b9a6892b158b88b88);
+        
+    
+        var popup_d676704c8dbd476d936d944fef8ab38e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_523851db54074497aa2f52eba7901c7f = $(`<div id="html_523851db54074497aa2f52eba7901c7f" style="width: 100.0%; height: 100.0%;">Locanda Del Buon Gusto - Vino E bruschette</div>`)[0];
+            popup_d676704c8dbd476d936d944fef8ab38e.setContent(html_523851db54074497aa2f52eba7901c7f);
+        
+
+        marker_ee2847bb6192402da22ec7daf1465970.bindPopup(popup_d676704c8dbd476d936d944fef8ab38e)
+        ;
+
+        
+    
+    
+            var marker_c4259e1bce2c402586f8fc96adfef99f = L.marker(
+                [44.68806842, 8.80524158],
+                {}
+            ).addTo(marker_cluster_2f98fa4f430c453b9a6892b158b88b88);
+        
+    
+        var popup_f2ae8dde8c1f42fa8d0805e0a367de5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_999afb5439884e8bb2f002b6fd549ffd = $(`<div id="html_999afb5439884e8bb2f002b6fd549ffd" style="width: 100.0%; height: 100.0%;">Antichi Sapori</div>`)[0];
+            popup_f2ae8dde8c1f42fa8d0805e0a367de5b.setContent(html_999afb5439884e8bb2f002b6fd549ffd);
+        
+
+        marker_c4259e1bce2c402586f8fc96adfef99f.bindPopup(popup_f2ae8dde8c1f42fa8d0805e0a367de5b)
+        ;
+
+        
+    
+    
+            var marker_3309e4e57e704e9faebf4bbd664c204e = L.marker(
+                [44.68776332, 8.8033855],
+                {}
+            ).addTo(marker_cluster_2f98fa4f430c453b9a6892b158b88b88);
+        
+    
+        var popup_b4c7defb70374d11bd7644b0becf0138 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fd0aee8109849f487f1619194992e2e = $(`<div id="html_4fd0aee8109849f487f1619194992e2e" style="width: 100.0%; height: 100.0%;">Pizzeria le chiacchere</div>`)[0];
+            popup_b4c7defb70374d11bd7644b0becf0138.setContent(html_4fd0aee8109849f487f1619194992e2e);
+        
+
+        marker_3309e4e57e704e9faebf4bbd664c204e.bindPopup(popup_b4c7defb70374d11bd7644b0becf0138)
+        ;
+
+        
+    
+    
+            var marker_a9ee505c6a744fd4ab1a4d4764219c88 = L.marker(
+                [44.69131007, 8.78577948],
+                {}
+            ).addTo(marker_cluster_2f98fa4f430c453b9a6892b158b88b88);
+        
+    
+        var popup_3d8693bbe7034d99b6e1ea000ebf48c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5c9965e2e094a35837a3bf7687c4588 = $(`<div id="html_b5c9965e2e094a35837a3bf7687c4588" style="width: 100.0%; height: 100.0%;">Agriturismo Nonna Du</div>`)[0];
+            popup_3d8693bbe7034d99b6e1ea000ebf48c9.setContent(html_b5c9965e2e094a35837a3bf7687c4588);
+        
+
+        marker_a9ee505c6a744fd4ab1a4d4764219c88.bindPopup(popup_3d8693bbe7034d99b6e1ea000ebf48c9)
+        ;
+
+        
+    
+    
+            var marker_93694f3b4336493aa2bf39a3184e1c49 = L.marker(
+                [44.67851022, 8.79258156],
+                {}
+            ).addTo(marker_cluster_2f98fa4f430c453b9a6892b158b88b88);
+        
+    
+        var popup_fe90691917574eb49999df6193176676 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df6b1b9d4141483082eb1c7527f74509 = $(`<div id="html_df6b1b9d4141483082eb1c7527f74509" style="width: 100.0%; height: 100.0%;">Ristorante Tenuta della Guardia</div>`)[0];
+            popup_fe90691917574eb49999df6193176676.setContent(html_df6b1b9d4141483082eb1c7527f74509);
+        
+
+        marker_93694f3b4336493aa2bf39a3184e1c49.bindPopup(popup_fe90691917574eb49999df6193176676)
+        ;
+
+        
+    
+    
+            var marker_d002fb75dd2043448c2d9f0ad525ebeb = L.marker(
+                [44.68826293, 8.80524158],
+                {}
+            ).addTo(marker_cluster_2f98fa4f430c453b9a6892b158b88b88);
+        
+    
+        var popup_4ca0961aee584ee4b84dbfee3aa43b18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dacad4674f71498b947a5a1adfe91b45 = $(`<div id="html_dacad4674f71498b947a5a1adfe91b45" style="width: 100.0%; height: 100.0%;">Trattoria Zia Cate</div>`)[0];
+            popup_4ca0961aee584ee4b84dbfee3aa43b18.setContent(html_dacad4674f71498b947a5a1adfe91b45);
+        
+
+        marker_d002fb75dd2043448c2d9f0ad525ebeb.bindPopup(popup_4ca0961aee584ee4b84dbfee3aa43b18)
+        ;
+
+        
+    
+</script>
