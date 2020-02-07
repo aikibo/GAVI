@@ -63,7 +63,7 @@ plt.show()
 ```
 </details>
 
-<img src="/Users/aless/github/GAVI/Image/Icon_Vino_2.png" alt="Icon_Vino_2" style="zoom:50%;" />
+<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Icon_Vino_2.png" alt="Icon_Vino_2" style="zoom:50%;" />
 
 
 ### Gavi
@@ -84,8 +84,7 @@ plt.show()
 ```
 </details>
 
-![gavi-forte-panorama](/Users/aless/github/GAVI/Image/gavi-forte-panorama.jpg)
-
+<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/gavi-forte-panorama.jpg" alt="gavi-forte-panorama" style="zoom:67%;" />
 
 ### Stemma
 
@@ -103,7 +102,7 @@ plt.show()
 ```
 </details>
 
-<img src="/Users/aless/github/GAVI/Image/Gavi-Stemma.png" alt="Gavi-Stemma" style="zoom:67%;" />
+<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi-Stemma.png" alt="Gavi-Stemma" style="zoom:67%;" />
 
 
 # Dove si trova?
@@ -158,7 +157,7 @@ gavi_map
 ```
 </details>
 
-![Gavi_map](/Users/aless/github/GAVI/Image/Gavi_map.png)
+<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_map.png" alt="Gavi_map" />
 
 
 <details>
@@ -184,7 +183,7 @@ gavi_map1
 ```
 </details>
 
-![Gavi_map1](/Users/aless/github/GAVI/Image/Gavi_map1.png)
+<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_map1.png" alt="Gavi_map1" />
 
 
 # Avvenimenti Storici
@@ -205,7 +204,7 @@ plt.show()
 ```
 </details>
 
-<img src="/Users/aless/github/GAVI/Image/vecchiagavi.jpg" alt="vecchiagavi" style="zoom:400%;" />
+<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/vecchiagavi.jpg" alt="vecchiagavi" style="zoom:400%;" />
 
 
 **Avvenimenti storici di Gavi**: 
@@ -273,8 +272,7 @@ gavi_map2
 ```
 </details>
 
-
-![Gavi_map2](/Users/aless/github/GAVI/Image/Gavi_map2.png)
+<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_map2.png" alt="Gavi_map2" />
 
 
 # Gastronomia e Vini
@@ -348,8 +346,10 @@ gavi_map3
 ```
 </details>
 
+<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_map3.png" alt="Gavi_map3" />
 
-![Gavi_map3](/Users/aless/github/GAVI/Image/Gavi_map3.png)
+
+
 
 
 
@@ -359,130 +359,7 @@ gavi_vini
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-    
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Aziende_Vinicole</th>
-      <th>Indirizzo</th>
-      <th>Telefono</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Cantina Cartasegna Virgilio di Giorgio Luciano...</td>
-      <td>Località nebbioli, 7, 15066 Gavi AL</td>
-      <td>347 135 5541</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Produttori Del Gavi</td>
-      <td>Via Cavalieri di Vittorio Veneto, 45, 15066 Ga...</td>
-      <td>0143 642786</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>La Scolca</td>
-      <td>Strada per Rovereto 170/r, 15066 Gavi AL</td>
-      <td>0143 682176</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>La Chiara</td>
-      <td>Località Vallegge, 24/2, 15066 Gavi AL</td>
-      <td>0143 642293</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Fontanassa Societa' Semplice</td>
-      <td>Frazione Rovereto,172 15066, Via Gavi, 15067 G...</td>
-      <td>0143 645455</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Giordano Lombardo - Azienda Agricola Biodinami...</td>
-      <td>Cascina San Martino, 1, 15066 Gavi AL</td>
-      <td>0143 643906</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>Bergaglio Nicola</td>
-      <td>Localita' Pedaggeri, 59, 15066 Gavi AL</td>
-      <td>0143 682195</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>cinzia bergaglio</td>
-      <td>Via Gavi, 29, 15060 Tassarolo AL</td>
-      <td>0143 342203</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>Azienda Agricola Il Poggio</td>
-      <td>Frazione Rovereto, 171r, 15066 Gavi AL</td>
-      <td>338 397 0590</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>Azienda agricola biodinamica - La Raia</td>
-      <td>Str. di Monterotondo, 79, 15067 Novi Ligure AL</td>
-      <td>0143 743685</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>Villa Sparina Resort</td>
-      <td>Frazione Monterotondo, 56, 15066 GAVI (AL)</td>
-      <td>0143 607801</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>Castellari Bergaglio Azienda Agricola</td>
-      <td>Frazione Rovereto, 136, 15066 Gavi AL</td>
-      <td>0143 644000</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>La Lomellina di Gavi - Marchese Raggio</td>
-      <td>Località Lomellina, 31, 15066 Gavi AL</td>
-      <td>338 745 5969</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>Marchese Luca Spinola</td>
-      <td>Cascina Massimiliana, 97, 15066 Gavi AL</td>
-      <td>0143 682514</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>Azienda vitivinicola Broglia</td>
-      <td>Località Lomellina, 22, 15066 Gavi AL</td>
-      <td>0143 642998</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>Azienda Agricola Il Rocchin</td>
-      <td>Località Vallemme, 39, 15066 Gavi AL</td>
-      <td>0143 642228</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_tab_vini.png" alt="Gavi_tab_vini" />
 
 
 
@@ -563,8 +440,6 @@ for lat_,lng_,label in zip(lat_bb,lng_bb,labels_bb):
 ```
 </details>
 
-
-
 ```python
 #Map of restaurants
 
@@ -575,7 +450,7 @@ gavi_map4
 
 
 
-![Gavi_map4](/Users/aless/github/GAVI/Image/Gavi_map4.png)
+<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_map4.png" alt="Gavi_map4" />
 
 
 
@@ -585,126 +460,9 @@ gavi_risto
 
 
 
+<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_tab_risto.png" alt="Gavi_tab_risto" />
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-    
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Ristoranti</th>
-      <th>Indirizzo</th>
-      <th>Telefono</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Ristorante Peccati Di Gola</td>
-      <td>Via Roma, 19, 15066 Gavi AL</td>
-      <td>0143 643686</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Ristorante Beer &amp; Co</td>
-      <td>Via Goffredo Mameli, 50, 15066 Gavi AL</td>
-      <td>0143 643990</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Osteria Piemontemare - Ghio Vini</td>
-      <td>Vico Rose, 2R, 15066 Gavi AL</td>
-      <td>0143 642411</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Ristorante Il Girasole</td>
-      <td>Piazza Martiri della Benedicta, 15/R, 15066 Ga...</td>
-      <td>0143 643485</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Ristorante Cantine Del Gavi</td>
-      <td>Via Goffredo Mameli, 69, 15066 Gavi AL</td>
-      <td>0143 642458</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Ristorante Al barbarossa</td>
-      <td>Via Voltaggio, 21r, 15066 Gavi AL</td>
-      <td>347 224 1185</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>Ristorante La Canonica</td>
-      <td>r, Vico Bassani, 22, 15066 Gavi AL</td>
-      <td>0143 643261</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>Ristorante Il Forte</td>
-      <td>Via Zeffirino Bertelli, 23, 15066 Gavi AL</td>
-      <td>0143 643126</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>Ristorante Pizzeria Ingavi Sel Ditta</td>
-      <td>Via Goffredo Mameli, 173, 15066 Gavi AL</td>
-      <td>0143 642453</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>Locanda Del Buon Gusto - Vino E bruschette</td>
-      <td>Via Goffredo Mameli, 26, 15066 Gavi AL</td>
-      <td>0143 642817</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>Antichi Sapori</td>
-      <td>Via Goffredo Mameli, 15, 15066 Gavi AL</td>
-      <td>0143 642782</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>Pizzeria le chiacchere</td>
-      <td>Via XX Settembre, 8r, 15066 Gavi AL</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>Agriturismo Nonna Du</td>
-      <td>Loc. Vallemme Zamblea, 14, 15066 Gavi AL</td>
-      <td>0143 642582</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>Ristorante Tenuta della Guardia</td>
-      <td>Cascina Pareggio, Via Nebbioli, 44, 15066 Gavi AL</td>
-      <td>329 146 6079</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>Trattoria Zia Cate</td>
-      <td>Via Goffredo Mameli, 8, 15066 Gavi AL</td>
-      <td>-</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
+Gavi_tab_risto
 
 ### DOLCI
 
@@ -724,76 +482,13 @@ gavi_map5.save(outfile= "OUTPUT/gavi_bar.html")
 gavi_map5
 ```
 
-
-
-![Gavi_map5](/Users/aless/github/GAVI/Image/Gavi_map5.png)
+<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_map5.png" alt="Gavi_map5" />
 
 ```python
 gavi_bar
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-    
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Bar/Pasticceria</th>
-      <th>Indirizzo</th>
-      <th>Telefono</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Bar Pasticceria La Pieve Di Gavi</td>
-      <td>Via Goffredo Mameli, 20, 15066 Gavi AL</td>
-      <td>0143 642817</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Caffè Cantante</td>
-      <td>Via Goffredo Mameli, 6R, 15066 Gavi AL</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Gelateria Bar Matteo Snc</td>
-      <td>Piazza Roma, 8, 15066 Gavi AL</td>
-      <td>0143 642766</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>G.B. Traverso Antica Pasticceria</td>
-      <td>Via Zeffirino Bertelli, 3, 15066 Gavi AL</td>
-      <td>0143 642713</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Caffè del Moro</td>
-      <td>Via Goffredo Mameli, 41, 15066 Gavi AL</td>
-      <td>0143 642648</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
+<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_tab_bar.png" alt="Gavi_tab_bar" />
 
 
 ```python
@@ -803,9 +498,7 @@ gavi_map.save(outfile= "OUTPUT/gavi_bb.html")
 gavi_map6
 ```
 
-
-
-![Gavi_map6](/Users/aless/github/GAVI/Image/Gavi_map6.png)
+<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_map6.png" alt="Gavi_map6" />
 
 
 
@@ -813,7 +506,7 @@ gavi_map6
 gavi_bb
 ```
 
-
+<img src="https://github.com/aikibo/GAVI/tree/master/Image/GAVI/Image/Gavi_tab_bb.png" alt="Gavi_tab_bb" />
 
 
 <div>
