@@ -109,9 +109,11 @@ plt.show()
 ```
 </details>
 
+
 <p align="center">
-  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi-Stemma.png" width="350" title="Gavi-Stemma">
+  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi-Stemma.png" width="300" title="Gavi-Stemma">
 </p>
+
 
 
 # Dove si trova?
@@ -363,20 +365,23 @@ gavi_map3
 ```
 </details>
 
+
 <p align="center">
   <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map3.png" width="1000" title="Gavi_map3.png">
 </p>
 
-
+<details>
+  <summary>👀 Espandi codice </summary>
 
 ```python
 gavi_vini
 ```
+</details>
+
 
 <p align="center">
   <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_vini.png" width="680" title="Gavi_tab_vini.png">
 </p>
-
 
 
 ### GASTRONOMIA
@@ -456,6 +461,10 @@ for lat_,lng_,label in zip(lat_bb,lng_bb,labels_bb):
 ```
 </details>
 
+
+<details>
+  <summary>👀 Espandi codice </summary>
+  
 ```python
 #Map of restaurants
 
@@ -463,6 +472,7 @@ gavi_map4.save(outfile= "OUTPUT/gavi_ristoranti.html")
 
 gavi_map4
 ```
+</details>
 
 
 <p align="center">
@@ -470,9 +480,14 @@ gavi_map4
 </p>
 
 
+<details>
+  <summary>👀 Espandi codice </summary>
+  
 ```python
 gavi_risto
 ```
+</details>
+
 
 <p align="center">
   <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_risto.png" width="680" title="Gavi_tab_risto.png">
@@ -488,7 +503,9 @@ Ricca è anche la **tradizione dolciaria**: ricordiamo i canestrelletti di pasta
 
 #### Dove andare:
 
-
+<details>
+  <summary>👀 Espandi codice </summary>
+  
 ```python
 #Map of bar
 
@@ -496,33 +513,54 @@ gavi_map5.save(outfile= "OUTPUT/gavi_bar.html")
 
 gavi_map5
 ```
+</details>
+
+
 <p align="center">
   <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map5.png" width="1000" title="Gavi_map5.png">
 </p>
 
 
+<details>
+  <summary>👀 Espandi codice </summary>
+  
 ```python
 gavi_bar
 ```
+</details>
+
+
 <p align="center">
   <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_bar.png" width="580" title="Gavi_tab_bar.png">
 </p>
 
 
+<details>
+  <summary>👀 Espandi codice </summary>
+  
 ```python
 #Map of bar
 gavi_map.save(outfile= "OUTPUT/gavi_bb.html")
 
 gavi_map6
 ```
+</details>
+
+
 <p align="center">
   <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map6.png" width="1000" title="Gavi_map6.png">
 </p>
 
 
+<details>
+  <summary>👀 Espandi codice </summary>
+  
 ```python
 gavi_bb
 ```
+</details>
+
+
 <p align="center">
   <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_bb.png" width="580" title="Gavi_tab_bb.png">
 </p>
