@@ -464,7 +464,7 @@ for lat_,lng_,label in zip(lat_bb,lng_bb,labels_bb):
 
 <details>
   <summary>👀 Espandi codice </summary>
-  
+
 ```python
 #Map of restaurants
 
@@ -482,7 +482,7 @@ gavi_map4
 
 <details>
   <summary>👀 Espandi codice </summary>
-  
+
 ```python
 gavi_risto
 ```
@@ -505,7 +505,7 @@ Ricca è anche la **tradizione dolciaria**: ricordiamo i canestrelletti di pasta
 
 <details>
   <summary>👀 Espandi codice </summary>
-  
+
 ```python
 #Map of bar
 
@@ -523,7 +523,7 @@ gavi_map5
 
 <details>
   <summary>👀 Espandi codice </summary>
-  
+
 ```python
 gavi_bar
 ```
@@ -537,7 +537,7 @@ gavi_bar
 
 <details>
   <summary>👀 Espandi codice </summary>
-  
+
 ```python
 #Map of bar
 gavi_map.save(outfile= "OUTPUT/gavi_bb.html")
@@ -554,7 +554,7 @@ gavi_map6
 
 <details>
   <summary>👀 Espandi codice </summary>
-  
+
 ```python
 gavi_bb
 ```
