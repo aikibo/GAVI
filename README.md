@@ -65,7 +65,7 @@ plt.show()
 
 
 <p align="center">
-  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Icon_Vino_2.png" width="350" title="Icona_Vino">
+  <img src="./Image/Icon_Vino_2.png" width="350" title="Icona_Vino">
 </p>
 
 
@@ -89,7 +89,7 @@ plt.show()
 
 
 <p align="center">
-  <img src="https://github.com/aikibo/GAVI/blob/master/Image/gavi-forte-panorama.jpg" width="1000" title="gavi-forte-panorama">
+  <img src="./Image/gavi-forte-panorama.jpg" width="1000" title="gavi-forte-panorama">
 </p>
 
 
@@ -111,7 +111,7 @@ plt.show()
 
 
 <p align="center">
-  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi-Stemma.png" width="300" title="Gavi-Stemma">
+  <img src="./Image/Gavi-Stemma.png" width="300" title="Gavi-Stemma">
 </p>
 
 
@@ -169,7 +169,7 @@ gavi_map
 </details>
 
 <p align="center">
-  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map.png" width="1000" title="Gavi_Map">
+  <img src="./Image/Gavi_map.png" width="1000" title="Gavi_Map">
 </p>
 
 
@@ -197,7 +197,7 @@ gavi_map1
 </details>
 
 <p align="center">
-  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map1.png" width="1000" title="Gavi_Map1">
+  <img src="./Image/Gavi_map1.png" width="1000" title="Gavi_Map1">
 </p>
 
 
@@ -220,7 +220,7 @@ plt.show()
 </details>
 
 <p align="center">
-  <img src="https://github.com/aikibo/GAVI/blob/master/Image/vecchiagavi.jpg" width="500" title="vecchiagavi.jpg">
+  <img src="./Image/vecchiagavi.jpg" width="500" title="vecchiagavi.jpg">
 </p>
 
 
@@ -290,7 +290,7 @@ gavi_map2
 </details>
 
 <p align="center">
-  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map2.png" width="1000" title="Gavi_map2.png">
+  <img src="./Image/Gavi_map2.png" width="1000" title="Gavi_map2.png">
 </p>
 
 
@@ -367,7 +367,7 @@ gavi_map3
 
 
 <p align="center">
-  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map3.png" width="1000" title="Gavi_map3.png">
+  <img src="./Image/Gavi_map3.png" width="1000" title="Gavi_map3.png">
 </p>
 
 <details>
@@ -380,7 +380,7 @@ gavi_vini
 
 
 <p align="center">
-  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_vini.png" width="680" title="Gavi_tab_vini.png">
+  <img src="./Image/Gavi_tab_vini.png" width="680" title="Gavi_tab_vini.png">
 </p>
 
 
@@ -476,7 +476,7 @@ gavi_map4
 
 
 <p align="center">
-  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map4.png" width="1000" title="Gavi_map4.png">
+  <img src="./Image/Gavi_map4.png" width="1000" title="Gavi_map4.png">
 </p>
 
 
@@ -490,7 +490,7 @@ gavi_risto
 
 
 <p align="center">
-  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_risto.png" width="680" title="Gavi_tab_risto.png">
+  <img src="./Image/Gavi_tab_risto.png" width="680" title="Gavi_tab_risto.png">
 </p>
 
 
@@ -517,7 +517,7 @@ gavi_map5
 
 
 <p align="center">
-  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map5.png" width="1000" title="Gavi_map5.png">
+  <img src="./Image/Gavi_map5.png" width="1000" title="Gavi_map5.png">
 </p>
 
 
@@ -531,7 +531,7 @@ gavi_bar
 
 
 <p align="center">
-  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_bar.png" width="580" title="Gavi_tab_bar.png">
+  <img src="./Image/Gavi_tab_bar.png" width="580" title="Gavi_tab_bar.png">
 </p>
 
 
@@ -548,7 +548,7 @@ gavi_map6
 
 
 <p align="center">
-  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_map6.png" width="1000" title="Gavi_map6.png">
+  <img src="./Image/Gavi_map6.png" width="1000" title="Gavi_map6.png">
 </p>
 
 
@@ -562,6 +562,6 @@ gavi_bb
 
 
 <p align="center">
-  <img src="https://github.com/aikibo/GAVI/blob/master/Image/Gavi_tab_bb.png" width="580" title="Gavi_tab_bb.png">
+  <img src="./Image/Gavi_tab_bb.png" width="580" title="Gavi_tab_bb.png">
 </p>
 
