@@ -145,7 +145,7 @@ lng = 8.8071700
 # map Gavi
 lat_global = [44.686270, 45.0704900, 44.4264000, 45.4642700, 44.7624600,44.7227700]
 lng_global = [8.8071700, 7.6868200, 8.9151900, 9.1895100, 8.7870000, 8.8563500]
-labels= ['Gavi','Torino', 'Genova','Milano', 'Novi Ligure','Serravalle Scrivia']
+labels= ['Gavi','Torino', 'Genova', 'Milano', 'Novi Ligure','Serravalle Scrivia']
 
 gavi_map = folium.Map(location=[lat,lng], zoom_start=8)
 
@@ -511,10 +511,9 @@ gavi_map5
 ```
 </details>
 
+![Mappa5](./Image/Mappa5.gif)
 
-<p align="center">
-  <img src="./Image/Gavi_map5.png" width="1000" title="Gavi_map5.png">
-</p>
+
 
 
 <details>
@@ -535,7 +534,7 @@ gavi_bar
   <summary>👀 Espandi codice </summary>
 
 ```python
-#Map of bar
+#Map of bb
 gavi_map.save(outfile= "OUTPUT/gavi_bb.html")
 
 gavi_map6
