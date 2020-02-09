@@ -3,7 +3,9 @@
 
 ### Introduzione
 
-In questa esercitazione di "Data Visualization", vi propongo una piccola giuda interattiva di Gavi che, a mio parere, è un piccolo gioiello del basso Piemonte! Qui potrete perdervi tra le stradine del paese e assaggiare i cibi tipici della tradizione piemontese/genovese. Oppure, potete percorrere quello che io chiamo "passeggiata del vino" tra le aziende vinicole (e vi consiglio di farla rigorosamente a piedi o in bici per godervi meglio il paesaggio). Le mie preferite sono le strade che passano da Monterondo o della Lomellina che, in determinati periodi dell'anno (marzo/aprile o settembre/ottobre) sono, a mio parere, uno splendore perchè si riempono di colore grazie ai vigneti! Ma vi consiglio anche di partecipare agli eventi proposti sul sito di Gavi (tra cui **Di Gavi in Gavi**, sito:http://www.comune.gavi.al.it/default.asp). Inoltre, grazie all'aiuto di Google, vi ho riporto l'elenco delle principali aziende vinicole, ristoranti, bar, b&b, hotel e agriturismi.
+In questa esercitazione di "Data Visualization", vi propongo una piccola giuda interattiva di Gavi che, a mio parere, è un piccolo gioiello del basso Piemonte! Qui potrete perdervi tra le stradine del paese e assaggiare i cibi tipici della tradizione piemontese/genovese. Oppure, potete percorrere quello che io chiamo "passeggiata del vino" tra le aziende vinicole (e vi consiglio di farla rigorosamente a piedi o in bici per godervi meglio il paesaggio). Le mie preferite sono le strade che passano da Monterondo o della Lomellina che, in determinati periodi dell'anno (marzo/aprile o settembre/ottobre) sono uno splendore perchè si riempono di colore grazie ai vigneti! 
+
+Ma vi consiglio anche di partecipare agli eventi proposti sul sito di Gavi (tra cui **Di Gavi in Gavi**, sito:http://www.comune.gavi.al.it/default.asp). Inoltre, grazie all'aiuto di Google, vi ho riporto l'elenco delle principali aziende vinicole, ristoranti, bar, b&b, hotel e agriturismi.
 
 La giuda è così composta:
 
@@ -168,9 +170,9 @@ gavi_map
 ```
 </details>
 
-<p align="center">
-  <img src="./Image/Gavi_map.png" width="1000" title="Gavi_Map">
-</p>
+
+![Mappa1](./Image/Mappa_1.gif)
+
 
 
 <details>
@@ -289,9 +291,7 @@ gavi_map2
 ```
 </details>
 
-<p align="center">
-  <img src="./Image/Gavi_map2.png" width="1000" title="Gavi_map2.png">
-</p>
+![Mappa3](./Image/Mappa_3.gif)
 
 
 # Gastronomia e Vini
@@ -366,9 +366,7 @@ gavi_map3
 </details>
 
 
-<p align="center">
-  <img src="./Image/Gavi_map3.png" width="1000" title="Gavi_map3.png">
-</p>
+![Mappa4](./Image/Mappa4.gif)
 
 <details>
   <summary>👀 Espandi codice </summary>
@@ -475,9 +473,7 @@ gavi_map4
 </details>
 
 
-<p align="center">
-  <img src="./Image/Gavi_map4.png" width="1000" title="Gavi_map4.png">
-</p>
+![Mappa2](./Image/Mappa_2.gif)
 
 
 <details>
@@ -546,11 +542,7 @@ gavi_map6
 ```
 </details>
 
-
-<p align="center">
-  <img src="./Image/Gavi_map6.png" width="1000" title="Gavi_map6.png">
-</p>
-
+![Mappa6](./Image/Mappa6.gif)
 
 <details>
   <summary>👀 Espandi codice </summary>
